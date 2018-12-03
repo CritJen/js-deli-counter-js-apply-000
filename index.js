@@ -22,3 +22,7 @@ function currentLine (nowLine) {
     return "The line is currently empty."
   }
 }
+let functionCalls = 0;
+function deliWheel (){
+  functionCalls++;
+}
